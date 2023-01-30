@@ -18,6 +18,7 @@
       videoTarget.addEventListener('targetLost', e => {
         const video = document.querySelector("#ncp-video")
         video.pause();
+        video.currentTime = 0;
       });
     })
   </script>
